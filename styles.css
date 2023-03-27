@@ -13,6 +13,13 @@ body {
 p {
     font-size: 15px;
     font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+h1 {
+    font-size: 15;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 .content {
@@ -23,18 +30,29 @@ p {
     justify-content: center;
 
     /* for debug */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     background-color: white;
-    border-radius: 16px;
+    border-radius: 24px;
+    width: 400px;
+    height: 600px;
+
+    text-align: center;
+    padding: 16px;
 
     /* for debug */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.qr-code {
+    width: 90%;
+    height: auto;
+    border-radius: 24px;
 }
 
 .attribution {
